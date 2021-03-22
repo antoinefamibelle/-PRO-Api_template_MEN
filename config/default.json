@@ -1,0 +1,5 @@
+{
+  "mongoURI": "YOUR_MONGO_URI",
+  "jwtSecret": "thescretjwt",
+  "serverPort": "8080"
+}
