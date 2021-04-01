@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "documentation": "apidoc -i ./routes/ -o DocumentationApi/"
+    "documentation": "apidoc -i ./routes/ -o DocumentationApi/",
+    "logs:show": "cat ./logs/all.log",
+    "logs:clean": "rm -rf logs",
+    "logs:error": "cat ./logs/error.log"
   },
   "author": "antoine.famibelle@epitech.eu",
   "license": "ISC",
@@ -17,7 +20,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.1"
+    "mongoose": "^5.12.1",
+    "natiodb": "^1.0.1",
+    "nationalogger": "^1.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

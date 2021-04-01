@@ -2,12 +2,15 @@ const express = require('express');
 const app = express();
 const config = require('config');
 const port = config.get('serverPort');
-const connectDatabase = require('./config/db.js');
 const cors = require('cors');
+const logger = require('nationalogger');
+const connectDatabase = require('natiodb');
+const url = config.get('mongoURI');
+
 
 /* Connection a la base de donnee */
 
-//connectDatabase();
+connectDatabase(url);
 
 app.set('trust-proxy', 1);
 app.use(cors());
@@ -21,5 +24,5 @@ app.get('/ping', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`server currently listening at http://localhost:${port}`)
+  logger.info(`server currently listening at http://localhost:${port}`)
 });

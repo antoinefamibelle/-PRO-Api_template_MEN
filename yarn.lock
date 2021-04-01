@@ -1130,10 +1130,10 @@
   "resolved" "https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz"
   "version" "1.0.2"
 
-"mongoose@^5.12.1":
-  "integrity" "sha512-g/oIEvQQrK1XcICS/PfzU1Gu1s6Uw1rgJP7/SfC3Ru6pTLa1dH2Lb+iJipNWqChbrykE78j/wwBVSsbyCZRl5Q=="
-  "resolved" "https://registry.npmjs.org/mongoose/-/mongoose-5.12.1.tgz"
-  "version" "5.12.1"
+"mongoose@^5.12.1", "mongoose@^5.12.2":
+  "integrity" "sha512-frsSR9yeldaRpSUeTegXCSB0Tu5UGq8sHuHBuEV31Jk3COyxlKFQPL7UsdMhxPUCmk74FpOYSmNwxhWBEqgzQg=="
+  "resolved" "https://registry.npmjs.org/mongoose/-/mongoose-5.12.3.tgz"
+  "version" "5.12.3"
   dependencies:
     "@types/mongodb" "^3.5.27"
     "bson" "^1.1.4"
@@ -1141,7 +1141,7 @@
     "mongodb" "3.6.5"
     "mongoose-legacy-pluralize" "1.0.2"
     "mpath" "0.8.3"
-    "mquery" "3.2.4"
+    "mquery" "3.2.5"
     "ms" "2.1.2"
     "regexp-clone" "1.0.0"
     "safe-buffer" "5.2.1"
@@ -1153,10 +1153,10 @@
   "resolved" "https://registry.npmjs.org/mpath/-/mpath-0.8.3.tgz"
   "version" "0.8.3"
 
-"mquery@3.2.4":
-  "integrity" "sha512-uOLpp7iRX0BV1Uu6YpsqJ5b42LwYnmu0WeF/f8qgD/On3g0XDaQM6pfn0m6UxO6SM8DioZ9Bk6xxbWIGHm2zHg=="
-  "resolved" "https://registry.npmjs.org/mquery/-/mquery-3.2.4.tgz"
-  "version" "3.2.4"
+"mquery@3.2.5":
+  "integrity" "sha512-VjOKHHgU84wij7IUoZzFRU07IAxd5kWJaDmyUzQlbjHjyoeK5TNeeo8ZsFDtTYnSgpW6n/nMNIHvE3u8Lbrf4A=="
+  "resolved" "https://registry.npmjs.org/mquery/-/mquery-3.2.5.tgz"
+  "version" "3.2.5"
   dependencies:
     "bluebird" "3.5.1"
     "debug" "3.1.0"
@@ -1183,6 +1183,21 @@
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   "version" "2.1.2"
+
+"natiodb@^1.0.1":
+  "integrity" "sha512-gesjlk0lDvnosSdLeN8ehUJR2T/faX3QzIaneRkCuVUUv+dJpNxKohBkis2yIm6Zm9LbDorUFy3DD1BTpWZvww=="
+  "resolved" "https://registry.npmjs.org/natiodb/-/natiodb-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "mongoose" "^5.12.2"
+    "nationalogger" "^1.1.2"
+
+"nationalogger@^1.1.2":
+  "integrity" "sha512-P7dB8qLmq9JBE6+MrDAlQsgvwNBBV0if/EI5zNOghzHqhtBL0UaapXtF4zVckzDkUwieh2Y4qJXbcsvxPxbGug=="
+  "resolved" "https://registry.npmjs.org/nationalogger/-/nationalogger-1.1.2.tgz"
+  "version" "1.1.2"
+  dependencies:
+    "winston" "^3.3.3"
 
 "negotiator@0.6.2":
   "integrity" "sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw=="
