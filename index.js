@@ -7,7 +7,6 @@ const logger = require('nationalogger');
 const connectDatabase = require('natiodb');
 const url = config.get('mongoURI');
 
-
 /* Connection a la base de donnee */
 
 connectDatabase(url);
